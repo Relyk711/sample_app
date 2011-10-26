@@ -210,5 +210,14 @@ div.field, div.actions {
     font-size: 12px;
     list-style: square;
     
-    
+/* for All users page */
+
+
+ul.users {
+  margin-top: 1em;
+}
+
+.users li {
+    list-style: none;
+}
 
