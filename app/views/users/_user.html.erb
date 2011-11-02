@@ -1,8 +1,9 @@
+<%= javascript_include_tag :defaults %>
 <li>
 	<%= gravatar_for user, :size => 30 %>
 	<%= link_to user.name, user %>
 	<% if current_user.admin? %>
-	| <%= link_to "delete", user, :method => :delete, :confirm => "Are you sure?",
-								  :title => "Delete #{user.name}" %>
+	| <%= link_to "delete", user, :confirm => "Are you sure?", :method => :delete %>
+      <div id='test-stuff'>Word</div>
 	<% end %>
 </li>
