@@ -13,7 +13,7 @@ describe MicropostsController do
 
 
     it "should deny access to 'destroy'" do
-      delete :destroy
+      delete :destroy, :id => 1
       response.should redirect_to(signin_path)
     end
   end

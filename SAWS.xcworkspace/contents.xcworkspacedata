@@ -77,6 +77,9 @@
             <FileRef
                location = "group:users_controller.rb">
             </FileRef>
+            <FileRef
+               location = "group:relationships_controller.rb">
+            </FileRef>
          </Group>
          <Group
             location = "group:helpers"
@@ -93,6 +96,9 @@
             <FileRef
                location = "group:users_helper.rb">
             </FileRef>
+            <FileRef
+               location = "group:microposts_helper.rb">
+            </FileRef>
          </Group>
          <Group
             location = "group:mailers"
@@ -107,10 +113,23 @@
             <FileRef
                location = "group:user.rb">
             </FileRef>
+            <FileRef
+               location = "group:relationship.rb">
+            </FileRef>
          </Group>
          <Group
             location = "group:views"
             name = "views">
+            <Group
+               location = "group:relationships"
+               name = "relationships">
+               <FileRef
+                  location = "group:create.js.erb">
+               </FileRef>
+               <FileRef
+                  location = "group:destroy.js.erb">
+               </FileRef>
+            </Group>
             <Group
                location = "group:layouts"
                name = "layouts">
@@ -175,6 +194,9 @@
                <FileRef
                   location = "group:_feed_item.html.erb">
                </FileRef>
+               <FileRef
+                  location = "group:_stats.html.erb">
+               </FileRef>
             </Group>
             <Group
                location = "group:users"
@@ -196,6 +218,18 @@
                </FileRef>
                <FileRef
                   location = "group:show.html.erb">
+               </FileRef>
+               <FileRef
+                  location = "group:_follow_form.html.erb">
+               </FileRef>
+               <FileRef
+                  location = "group:_follow.html.erb">
+               </FileRef>
+               <FileRef
+                  location = "group:_unfollow.html.erb">
+               </FileRef>
+               <FileRef
+                  location = "group:show_follow.html.erb">
                </FileRef>
             </Group>
          </Group>
@@ -294,6 +328,9 @@
             </FileRef>
             <FileRef
                location = "group:20111024220503_add_admin_to_users.rb">
+            </FileRef>
+            <FileRef
+               location = "group:20111102170909_create_relationships.rb">
             </FileRef>
             <FileRef
                location = "group:20111026213706_create_microposts.rb">
@@ -540,6 +577,9 @@
             <FileRef
                location = "group:users_controller_spec.rb">
             </FileRef>
+            <FileRef
+               location = "group:relationships_controller_spec.rb">
+            </FileRef>
          </Group>
          <FileRef
             location = "group:factories.rb">
@@ -552,6 +592,9 @@
             </FileRef>
             <FileRef
                location = "group:user_spec.rb">
+            </FileRef>
+            <FileRef
+               location = "group:relationship_spec.rb">
             </FileRef>
          </Group>
          <Group
@@ -759,9 +802,6 @@
             name = "sockets">
          </Group>
       </Group>
-      <FileRef
-         location = "group:Untitled.xcworkspace">
-      </FileRef>
       <Group
          location = "group:vendor"
          name = "vendor">
