@@ -1,9 +1,12 @@
 .container {
   width: 710px;
+  margin: auto;
 }
 
 body {
-  background: #cff;
+  background: #C1FFC1;
+  
+  
 }
 
 header {
@@ -13,6 +16,7 @@ header {
 header img {
   padding: 1em;
   background: #fff;
+  
 }
 
 section {
@@ -128,7 +132,7 @@ td.sidebar {
   width: 30%;
   padding: 1em;
   vertical-align: top;
-  background: #ffc;
+  background: #F0F0F0;
 }
 
 .profile img.gravatar {

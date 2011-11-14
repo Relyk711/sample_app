@@ -1,4 +1,4 @@
-SampleApp::Application.routes.draw do
+Starterize::Application.routes.draw do
     #get "sessions/new"
     
     resources :users do
